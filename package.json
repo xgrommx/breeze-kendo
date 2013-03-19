@@ -1,0 +1,53 @@
+{
+  "name": "breeze-kendo",
+  "description": "Integrating Breeze.js and Kendo UI",
+  "version": "0.0.1",
+  "homepage": "https://github.com/kendo-labs/breeze-kendo",
+  "keywords": [
+    "breeze.js",
+    "plugin",
+    "data",
+    "datasource",
+    "api",
+    "ajax",
+    "kendoui",
+    "kendo",
+    "integration"
+  ],
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "https://github.com/kendo-labs/breeze-kendo/blob/master/LICENSE.md"
+    }
+  ],
+  "scripts": {
+    "start": "grunt server"
+  },
+  "author": {
+    "name": "Derick Bailey",
+    "email": "derick@kendoui.com",
+    "web": "http://kendoui.com"
+  },
+  "bugs": {
+    "web": "https://github.com/kendo-labs/breeze-kendo/issues"
+  },
+  "github": "https://github.com/kendo-labs/breeze-kendo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kendo-labs/breeze-kendo.git"
+  },
+
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-jasmine": "~0.3.1",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-plato": "~0.1.4",
+    "grunt-preprocess": "git://github.com/onehealth/grunt-preprocess.git#grunt-0.4.0",
+    "grunt-contrib-uglify": "~0.1.1",
+    "grunt-contrib-concat": "~0.1.2",
+    "grunt-template-jasmine-istanbul": "~0.1.1",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt-contrib-connect": "~0.1.2"
+  }
+}
+
